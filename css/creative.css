@@ -44,6 +44,7 @@ p {
 }
 .bg-primary {
   background-color: #F05F40;
+  /*background-color: #663399;*/
 }
 .bg-dark {
   background-color: #222222;
@@ -313,9 +314,11 @@ header .header-content .header-content-inner p {
 .btn-default.disabled,
 .btn-default[disabled],
 fieldset[disabled] .btn-default,
+/*
 .btn-default.disabled:hover,
 .btn-default[disabled]:hover,
 fieldset[disabled] .btn-default:hover,
+*/
 .btn-default.disabled:focus,
 .btn-default[disabled]:focus,
 fieldset[disabled] .btn-default:focus,
@@ -361,9 +364,11 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.disabled,
 .btn-primary[disabled],
 fieldset[disabled] .btn-primary,
+/*
 .btn-primary.disabled:hover,
 .btn-primary[disabled]:hover,
 fieldset[disabled] .btn-primary:hover,
+*/
 .btn-primary.disabled:focus,
 .btn-primary[disabled]:focus,
 fieldset[disabled] .btn-primary:focus,
@@ -377,10 +382,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
   background-color: #F05F40;
+  /*background-color: #663399;*/
   border-color: #F05F40;
 }
 .btn-primary .badge {
   color: #F05F40;
+  /*color: #663399;*/
   background-color: white;
 }
 .btn {

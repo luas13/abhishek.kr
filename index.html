@@ -527,9 +527,9 @@
                 <div class="panel-body">
                 <!--<p> <h3><strong>Simple Explanation:</strong></h3> An application used to convert text-based guitar tablature into a customizable PDF document.</p>-->
                     <p> <h3><strong><u>Technical Explanation:</u></strong></h3>
-                        There are seven types of human emotions shown to be universally recognizable across different cultures: anger, disgust, fear, happiness, sadness, surprise, contempt. The traditional solution uses the approach that emotions depends on the locations of facial landmarks and that emotions are dependent on the relationship between landmarks, while we use deep learning model CNN to recognise facial expression. Convolutional Neural Networks take advantage of the fact that the input consists of images images and in particular, unlike a regular Neural Network, the layers of a ConvNet have neurons arranged in 3 dimensions: width, height, depth.<br><br>
+                        There are seven types of human emotions shown to be universally recognizable across different cultures: anger, disgust, fear, happiness, sadness, surprise, contempt. The traditional solution uses the approach that emotions depends on the locations of facial landmarks and that emotions are dependent on the relationship between landmarks, while we use deep learning model CNN to recognise facial expression. Convolutional Neural Networks take advantage of the fact that the input consists of images and in particular, unlike a regular Neural Network, the layers of a ConvNet have neurons arranged in 3 dimensions: width, height, depth.<br><br>
                     </p>>
-                    I used FER2013 dataset where I passed the training images to the CNN and through which we obtained   values corresponding to different expressions. Various hyper-parameter optimizations were done to get a good accuracy of 63%. The future work which I intend to do here is use SIFT features along with CNN to get better accuracy. This has been theoritcally shown in a paper. Two other ways were also employed to recognise facial expressions using SVM.<br>
+                    We used FER2013 dataset where we passed the training images to the CNN and through which we obtained   values corresponding to different expressions. Various hyper-parameter optimizations were done to get a good accuracy of 63%. The future work which I intend to do here is use SIFT features along with CNN to get better accuracy. This has been theoritcally shown in a paper. Two other ways were also employed to recognise facial expressions using SVM.<br>
                     <p><h2><u>Classification Results</u></h2>
                         <center><img src="img/portfolio/proj_2/correct_class.jpg" class="img-responsive" alt="" width="500" height="80"></center>This is correct classification. We got some incorrect classification results too.
                         <center><img src="img/portfolio/proj_2/incorrect_class.jpg" class="img-responsive" alt="" width="250" height="50"></center>Few of the samples are classified incorrectly by our model. As shown in the figure above, the input face is clearly a surprised face, but the model classifies it as neutral. 
@@ -605,7 +605,7 @@
                     <br><br>
                         <center> <img src="img/portfolio/proj_3/step3.jpg" class="img-responsive" alt="" width="330" height="35"> Output from step3- denotes the translated image for the given input image.</center>
                     <br><br>
-                        The results when 64x64 center cropped images from kiti dataset are used as training data are depicted in above figures. Fig. 3, Fig. 4 and Fig. 5. The training time without GPU was very long, close to two days. When tried running with limited GPU (over Google cloud) but there too the program took around 6-7 hours to complete. We performed 100 epochs for step1 and 30000 epochs for step2. We are unable to conclude any concrete information from our results as the output images are hazy. 
+                        The results when 64x64 center cropped images from kiti dataset are used as training data are depicted in above figures. The training time without GPU was very long, close to two days. When tried running with limited GPU (over Google cloud) but there too the program took around 6-7 hours to complete. We performed 100 epochs for step1 and 30000 epochs for step2. We were unable to conclude any concrete information from our results as the output images were hazy. 
                     <br><br>
                         We had our model based on theoretical reasoning which promised the stereo-pair generation. But we were not able to produce results with clear images. All our results contained features of the images. One of the main reason behind this was that our computing power was very less. It took almost half a day to run with a single GPU. The other reason we believe for this is that the difference between the left and right image is very minute and it is very difficult for the generator to learn the difference. Also the parameter and hyper-parameter optimizations could not be done as we thought. 
                     </p>
@@ -853,7 +853,7 @@
                 <h2 class="section-heading">Well, this is me.</h2>
                 <hr class="primary">
                 <!--<p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>-->
-                <center> <img src="img/portfolio/thumbnails/asu_dp.jpg" class="img-responsive" alt=""> </center>
+                <center> <img src="img/portfolio/thumbnails/asu_dp.jpg" style="border-radius:  50%" class="img-responsive" alt=""> </center>
                 <p>Ready to talk <a color:transparent><font size="7"> &#9786; </font></a> Let's Get In Touch</p>
             </div>
                 <!--
